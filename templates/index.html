@@ -22,35 +22,36 @@
 </head>
 
 <body bgcolor="#FFFFFF" text="#000000">
+<form method="post">
     <table name="form1" method="post" action="">
         <tr>
             <td>
                 <label>
-                    <input type="checkbox" name="checkbox_4" >第一個<br>
+                    <input type="checkbox" name="holo" value="aki">第一個<br>
                     <img src="{{ url_for('static', filename='images/aki.jpg') }}";>
                 </label>
             </td>
             <td>
                 <label>
-                    <input type="checkbox" name="checkbox_4" >第二個<br>
+                    <input type="checkbox" name="holo" value="aqua">第二個<br>
                     <img src="{{ url_for('static', filename='images/aqua.jpg') }}";>
                 </label>
             </td>
             <td>
                 <label>
-                    <input type="checkbox" name="checkbox_4" >第三個<br>
+                    <input type="checkbox" name="holo" value="fubu" >第三個<br>
                     <img src="{{ url_for('static', filename='images/fubu.jpg') }}";>
                 </label>
             </td>
             <td>
                 <label>
-                    <input type="checkbox" name="checkbox_4">第四個<br>
+                    <input type="checkbox" name="holo" value="hato">第四個<br>
                     <img src="{{ url_for('static', filename='images/hato.jpg') }}";>
                 </label>
             </td>
             <td>
                 <label>
-                    <input type="checkbox" name="checkbox_4" >第五個<br>
+                    <input type="checkbox" name="holo" value="melu">第五個<br>
                     <img src="{{ url_for('static', filename='images/mel.jpg') }}";>
                 </label>
             </td>
@@ -58,37 +59,43 @@
         <tr>
             <td>
                 <label>
-                    <input type="checkbox" name="checkbox_4" >第六個<br>
+                    <input type="checkbox" name="holo" value="miko">第六個<br>
                     <img src="{{ url_for('static', filename='images/miko.jpg') }}";>
                 </label>
             </td>
             <td>
 
                 <label>
-                    <input type="checkbox" name="checkbox_4" >第七個<br>
+                    <input type="checkbox" name="holo" value="natsu">第七個<br>
                     <img src="{{ url_for('static', filename='images/natsu.jpg') }}";>
                 </label>
             </td>
             <td>
                 <label>
-                    <input type="checkbox" name="checkbox_4">第八個<br>
-                    <img src="{{ url_for('static', filename='images/rbc.jpg') }}";>
+                    <input type="checkbox" name="holo" value="rbk">第八個<br>
+                    <img src="{{ url_for('static', filename='images/rbk.jpg') }}";>
                 </label>
             </td>
             <td>
                 <label>
-                    <input type="checkbox" name="checkbox_4" >第九個<br>
+                    <input type="checkbox" name="holo" value="sora">第九個<br>
                     <img src="{{ url_for('static', filename='images/sora.jpg') }}";>
                 </label>
             </td>
             <td>
                 <label>
-                    <input type="checkbox" name="checkbox_4" >第十個<br>
+                    <input type="checkbox" name="holo" value="sui">第十個<br>
                     <img src="{{ url_for('static', filename='images/sui.jpg') }}";>
                 </label>
             </td>
         </tr>
+        <tr>
+            <td>
+                <input type="submit" value="下一步" onclick="search()">
+            </td>
+        </tr>
     </table>
+</form>
 </body>
 
 
